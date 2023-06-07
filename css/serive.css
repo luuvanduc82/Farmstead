@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+}
+
+/* banner  */
+.inner-banner {
+    background-image: url(./../img/inner-banner.png);
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner-banner .container h4 {
+    color: #060e1f;
+    font-family: 'Volkhov', serif;
+ }
+ 
+ ul {
+    margin: 0;
+    padding: 0;
+    color: #707070 ;
+    text-transform: capitalize;
+    vertical-align: middle;
+    font-size: 15px;
+ }
+
+
+ /* services  */
+ .w3l-services-bottom-grids-6 .area-box {
+    padding: 50px 35px;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+    background-color:white;
+    /* box-shadow: 0 1rem 3rem  */
+
+ }
+ .w3l-services-bottom-grids-6 .area-box i {
+    font-size: 45px;
+    color: #fb811e;
+    display: inline-block;
+ 
+ }
+ 
+.w3l-services-bottom-grids-6 .title {
+    line-height: 1.2;
+    font-weight: 600;
+    color: black;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    letter-spacing: 0;
+}
+
+.grids_info span.fa {
+    font-size: 30px;
+    color: #fb811e;
+}
+
+
+/* choose us  */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.radius-image {
+    border-radius: 30px;
+}
+
+
+/* number  */
+
+.icon .fa-solid{
+    color: #009f4d;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: rgb(0 159 77 / 4%);
+    font-size: 32px;
+}
+
+.counter {
+    font-size: 3em;
+    font-weight: 600 ;
+    color: black;
+}
+
+/* exp  */
+.exp-content-bg ::before{
+    position: relative;
+    z-index: 1;
+}
+.exp-content-bg {
+    background: url(./../img/bg2\ \(1\).jpg);
+    
+   
+}
+.col-md-7 {
+    padding-left: 80px;
+}
+
+
+/* footer  */
+.w31-footer-16 a.logo {
+    font-size: 32px;
+    color: #fb811e;
+}
+
+.w31-footer-16 a.title1 {
+    color: #009f4d;
+}
+
+.w31-footer-16 .w31-footer-16-main h3 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #060606;
+}
+
+.fa-solid {
+    
+   
+    color: #fb811e ;
+   
+  }
+ 
+.Subscribe button {
+    color: #009f4d;
+  }
+
+.social li {
+    display: inline-block;
+    margin-right: 25px;
+    color: #009f4d;
+  }
+    
+  
