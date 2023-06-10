@@ -177,6 +177,10 @@
         font-family: 'Source Sans Pro', sans-serif;
     }
     
+    .submenu li a:hover {
+        color: #fb811e;
+    }
+    
     .submenu li.active a {
         color: #fb811e!important;
     }
@@ -517,6 +521,10 @@
     
     .our_team {
         background: #009f4d;
+    }
+    
+    .our_team_content {
+        row-gap: 20px;
     }
     
     .title_bg_our {
@@ -875,7 +883,10 @@
         .reviews_info h3 {
             font-size: 18px;
         }
-        .title_main {
+        .title_main,
+        .title-style1,
+        .title-style,
+        .counter {
             font-size: 30px;
             line-height: 35px;
         }
@@ -901,6 +912,15 @@
         }
     }
     
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .box_grids {
+            grid-template-columns: 1fr 1fr;
+        }
+        .row_gap {
+            row-gap: 20px;
+        }
+    }
+    
     @keyframes shine {
         100% {
             left: 125%;
@@ -909,22 +929,32 @@
     /* css dark color, */
     
     .dark h1,
+    .dark h5,
+    .dark h6,
     .dark h2,
     .dark h3,
     .dark h4,
+    .dark ul,
     .dark .header.scroll .navbar-brand,
     .dark .scroll button#switchButton i,
     #myBody.dark .scroll .btn_bars i,
     .dark .box_grids .grids_1 h4 a,
-    .dark .service .card-title {
+    .dark .service .card-title,
+    .dark .counter,
+    .dark section#stats p {
         color: #fff!important;
+    }
+    
+    .scroll .btn_bars i {
+        color: #060606;
     }
     
     .dark header.header.bg-transparent.w-100.position-fixed.scroll,
     .dark .box_grids .grids_1,
     .dark .service .card-body,
     .dark .col_benefit a,
-    .dark .menu_dropdown .card.card-body {
+    .dark .menu_dropdown .card.card-body,
+    .dark .w3l-services-bottom-grids-6 .area-box {
         background: #222222!important;
     }
     
