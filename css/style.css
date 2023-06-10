@@ -910,6 +910,9 @@
         .revews_des {
             font-size: 17px;
         }
+        .row_gap {
+            row-gap: 20px;
+        }
     }
     
     @media (min-width: 768px) and (max-width: 1024px) {
