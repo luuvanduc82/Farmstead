@@ -952,6 +952,10 @@
         color: #060606;
     }
     
+    .fancybox__container {
+        z-index: 99999;
+    }
+    
     .dark header.header.bg-transparent.w-100.position-fixed.scroll,
     .dark .box_grids .grids_1,
     .dark .service .card-body,

@@ -22,6 +22,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <!-- fancybox, -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+
     <!-- css style  -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -374,7 +379,7 @@
                     </div>
                     <div class="col-lg-3 col-6 col_nopading">
                         <div class="gallery_effect">
-                            <a href="#" class="d-block position-relative">
+                            <a href="./img/g2.jpg" data-fancybox="gallery" data-caption="Hình 1" class="d-block position-relative">
                                 <figure class="position-relative overflow-hidden m-0">
                                     <img class="img-fluid" src="./img/g2.jpg" alt="">
                                     <h5 class="gallery_txt">Fresh Carrots</h5>
@@ -384,7 +389,7 @@
                     </div>
                     <div class="col-lg-3 col-6 col_nopading">
                         <div class="gallery_effect">
-                            <a href="#" class="d-block position-relative">
+                            <a href="./img/g3.jpg" data-fancybox="gallery" data-caption="Hình 2" class="d-block position-relative">
                                 <figure class="position-relative overflow-hidden m-0">
                                     <img class="img-fluid" src="./img/g3.jpg" alt="">
                                     <h5 class="gallery_txt">
@@ -395,7 +400,7 @@
                     </div>
                     <div class="col-lg-3 col-6 col_nopading">
                         <div class="gallery_effect">
-                            <a href="#" class="d-block position-relative">
+                            <a href="./img/g6.jpg" data-fancybox="gallery" data-caption="Hình 3" class="d-block position-relative">
                                 <figure class="position-relative overflow-hidden m-0">
                                     <img class="img-fluid" src="./img/g6.jpg" alt="">
                                     <h5 class="gallery_txt">
@@ -406,7 +411,7 @@
                     </div>
                     <div class="col-lg-3 col-6 col_nopading">
                         <div class="gallery_effect">
-                            <a href="#" class="d-block position-relative">
+                            <a href="./img/g5.jpg" data-fancybox="gallery" data-caption="Hình 4" class="d-block position-relative">
                                 <figure class="position-relative overflow-hidden m-0">
                                     <img class="img-fluid" src="./img/g5.jpg" alt="">
                                     <h5 class="gallery_txt">
@@ -417,7 +422,7 @@
                     </div>
                     <div class="col-lg-3 col-6 col_nopading">
                         <div class="gallery_effect">
-                            <a href="#" class="d-block position-relative">
+                            <a href="./img/g1.jpg" data-fancybox="gallery" data-caption="Hình 5" class="d-block position-relative">
                                 <figure class="position-relative overflow-hidden m-0">
                                     <img class="img-fluid" src="./img/g1.jpg" alt="">
                                     <h5 class="gallery_txt">
@@ -428,7 +433,7 @@
                     </div>
                     <div class="col-lg-3 col-6 col_nopading">
                         <div class="gallery_effect">
-                            <a href="#" class="d-block position-relative">
+                            <a href="./img/g7.jpg" data-fancybox="gallery" data-caption="Hình 6" class="d-block position-relative">
                                 <figure class="position-relative overflow-hidden m-0">
                                     <img class="img-fluid" src="./img/g7.jpg" alt="">
                                     <h5 class="gallery_txt">
@@ -439,7 +444,7 @@
                     </div>
                     <div class="col-lg-3 col-6 col_nopading">
                         <div class="gallery_effect">
-                            <a href="#" class="d-block position-relative">
+                            <a href="./img/g8.jpg" data-fancybox="gallery" data-caption="Hình 7" class="d-block position-relative">
                                 <figure class="position-relative overflow-hidden m-0">
                                     <img class="img-fluid" src="./img/g8.jpg" alt="">
                                     <h5 class="gallery_txt">
@@ -595,6 +600,14 @@
     <!-- backtotop, -->
     <script src="./js/main-backtotop.js"></script>
     <script src="./js/util.js"></script>
+
+    <!-- js fancybox, -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+            // Your custom options
+        });
+    </script>
 </body>
 
 </html>
